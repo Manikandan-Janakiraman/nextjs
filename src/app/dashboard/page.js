@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 export default function Dashboard() {
 
 
@@ -6,8 +6,10 @@ export default function Dashboard() {
         <>
 
             
-            <h1>Dashboard</h1>
-
+                <div>
+                   <Image src="/rough.jpg" alt="Picture of the author" width={1920} height={450}/>
+                </div>
+                
 
         </>
     )
