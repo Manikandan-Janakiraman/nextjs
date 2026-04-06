@@ -10,7 +10,7 @@ export default function setting() {
 
                 <div className="w-200 h-125 text-black flex flex-col gap-2 p-3 rounded-xl">
 
-                    <h1 className="font-bold text-5xl">Setting the World</h1>
+                    <h1 className="font-bold text-5xl">Setting</h1>
                     <p>
                         Our platform is built to bring the warmth and authenticity of home-cooked food to people’s everyday lives. In a fast-paced world where time is limited, we aim to provide meals that feel just like they are made at home—fresh, comforting, and full of care. We believe food is not just about eating, but about experience, health, and connection.
                     </p>
