@@ -23,7 +23,7 @@ export default function blog() {
                     />
                     <h1 className="font-bold">Welcome to the Next Js World</h1>
                     <p>Next Js is the server side rendering javascript.
-                        Create backend APIs inside the same project.
+                        Create backend APIs and inside the same project.
                     </p>
                     <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read More</button>
                 </div>
