@@ -1,46 +1,93 @@
-import Image from 'next/image'
+"use client"
+import { useState } from "react";
 
-export default function About() {
+export default function ContactForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
 
-    return (
-        <>
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+    alert("Message sent successfully!");
+    
+    // Reset form
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
+  };
 
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <form
+        onSubmit={handleSubmit}
+        className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md"
+      >
+        <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">
+          Contact Us
+        </h2>
 
+        {/* Name */}
+        <div className="mb-4">
+          <label className="block text-gray-600 mb-2">Name</label>
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="Enter your name"
+          />
+        </div>
 
+        {/* Email */}
+        <div className="mb-4">
+          <label className="block text-gray-600 mb-2">Email</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="Enter your email"
+          />
+        </div>
 
+        {/* Message */}
+        <div className="mb-6">
+          <label className="block text-gray-600 mb-2">Message</label>
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+            rows="4"
+            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="Write your message..."
+          ></textarea>
+        </div>
 
-            <div className="flex flex-row p-30 gap-5 justify-around min-h-screen">
-
-                <div className="w-200 h-125 text-black flex flex-col gap-2 p-3 rounded-xl">
-
-                    <h1 className="font-bold text-5xl">Contact Us</h1>
-                    <p>
-                        Our platform is built to bring the warmth and authenticity of home-cooked food to people’s everyday lives. In a fast-paced world where time is limited, we aim to provide meals that feel just like they are made at home—fresh, comforting, and full of care. We believe food is not just about eating, but about experience, health, and connection.
-                    </p>
-                    <p>
-                        We connect users with talented home chefs who are passionate about cooking and sharing their unique recipes. From traditional meals to modern healthy options, our platform offers a wide variety of dishes that cater to different tastes and lifestyles. Whether it’s a simple lunch, a special dinner, or a fitness-focused meal plan, we make it easy to find the right food.
-
-                    </p>
-                    <p>
-                        Quality and hygiene are at the core of everything we do. We ensure that every meal prepared by our chefs follows proper safety standards and maintains consistent taste and freshness. Our goal is to build trust with every order, so customers can enjoy their food without any concerns.
-
-                    </p>
-                 
-                </div>
-
-                <div className="w-200 h-95 text-black flex flex-col gap-2">
-                    <Image src="/images.jpg" alt="Picture of the author" width={800} height={800} className='rounded-2xl'
-                    />
-
-                </div>
-
-            </div >
-
-
-
-
-
-        </>
-    )
+        {/* Button */}
+        <button
+          type="submit"
+          className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300"
+        >
+          Send Message
+        </button>
+      </form>
+    </div>
+  );
 }

@@ -9,9 +9,9 @@ export default function Headers() {
 
             <div className='flex cols-9 text-white justify-between gap-5'>
                 <Link href="/">Home</Link>
+                <Link href="/about">About</Link>
                 <Link href="/dashboard">Dashboard</Link>
                 <Link href="/dashboard/settings">Setting</Link>
-                <Link href="/about">About</Link>
                 <Link href="/blog">Blog</Link>
                 <Link href="/contact">Contact</Link>
             </div>
