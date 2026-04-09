@@ -13,6 +13,7 @@ export default function Headers() {
                 <Link href="/dashboard/settings">Setting</Link>
                 <Link href="/about">About</Link>
                 <Link href="/blog">Blog</Link>
+                <Link href="/contact">Contact</Link>
             </div>
         </div>
     )
