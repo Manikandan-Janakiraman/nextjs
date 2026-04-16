@@ -67,10 +67,7 @@ export default function setting() {
                         In addition to serving customers, we are also dedicated to empowering home chefs & creating opportunities for them to grow. By providing a platform to showcase their skills, we help them turn their passion into a reliable source of income, while reaching a wider audience in their local community.
                     </p>
 
-                    <p>
-                        Our mission is to redefine food delivery by focusing health, authenticity, & convenience. We strive to create a community where people can enjoy homemade food every day, support local talent, and experience the joy of meals that truly feel like home.
-                    </p>
-
+                  
                 </div>
 
                 <div className="w-200 h-95 text-black flex flex-col gap-2">
