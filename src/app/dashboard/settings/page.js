@@ -46,6 +46,12 @@ export default function setting() {
 
 <div className="flex flex-row p-30 gap-5 justify-around min-h-screen">
 
+     <div className="w-200 h-55 text-black flex flex-col gap-2">
+                    <Image src="/images.jpg" alt="Picture of the author" width={800} height={800} className='rounded-2xl'
+                    />
+
+                </div>
+
                 <div className="w-200 h-125 text-black flex flex-col gap-2 p-3 rounded-xl">
 
                     <h1 className="font-bold text-5xl">Setting</h1>
@@ -63,18 +69,10 @@ export default function setting() {
                         prepared by our chefs follows proper safety standards and maintains consistent taste & freshness. Our goal is to build trust with every order, so customers can enjoy their food without any concerns.
 
                     </p>
-                    <p>
-                        In addition to serving customers, we are also dedicated to empowering home chefs & creating opportunities for them to grow. By providing a platform to showcase their skills, we help them turn their passion into a reliable source of income, while reaching a wider audience in their local community.
-                    </p>
-
                   
                 </div>
 
-                <div className="w-200 h-95 text-black flex flex-col gap-2">
-                    <Image src="/images.jpg" alt="Picture of the author" width={800} height={800} className='rounded-2xl'
-                    />
-
-                </div>
+               
 
             </div >
         </>
