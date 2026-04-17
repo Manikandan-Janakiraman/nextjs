@@ -59,11 +59,7 @@ export default function setting() {
                         Our platform is built to bring the warmth and authenticity of home-cooked food to people’s everyday lives. In a fast-paced world where time is limited, we aim to provide meals that feel just like they are made at home—fresh, comforting, and full of care. We believe food is not just about eating, but about experience, 
                         health, and connection.
                     </p>
-                    <p>
-                        We connect users with talented home chefs who are passionate about cooking and sharing 
-                        their unique recipes. From traditional meals to modern healthy options, our platform offers a wide variety of dishes that cater to different tastes and lifestyles. Whether it’s a simple lunch, a special dinner, or a fitness-focused meal plan, we make it easy to find the right food.
-
-                    </p>
+                   
                     <p>
                         Quality and hygiene are at the core of everything we do. We ensure that every meal 
                         prepared by our chefs follows proper safety standards and maintains consistent taste & freshness. Our goal is to build trust with every order, so customers can enjoy their food without any concerns.
