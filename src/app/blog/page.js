@@ -13,7 +13,7 @@ export default function blog() {
 
             <div className='flex flex-col justify-center text-center mt-20 -mb-15'>
                 <h1 className='text-center font-bold text-4xl mb-2'>Our Blog</h1>
-                <p>We provide the list of blogs based on category</p>
+                <p>We provide the list of blogs based category</p>
             </div>
 
             <div className="flex flex-row p-30 gap-5 justify-around">

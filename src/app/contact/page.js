@@ -68,7 +68,7 @@ export default function ContactForm() {
 
         {/* Message */}
         <div className="mb-6">
-          <label className="block text-gray-600 mb-2">Message</label>
+          <label className="block text-gray-600 mb-2">Messages</label>
           <textarea
             name="message"
             value={formData.message}
@@ -85,7 +85,7 @@ export default function ContactForm() {
           type="submit"
           className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300"
         >
-          Send Message
+          Send Messages
         </button>
       </form>
     </div>
