@@ -25,10 +25,7 @@ export default function setting() {
                         prepared by our chefs follows proper safety standards and maintains consistent taste & freshness. Our goal is to build trust with every order, so customers can enjoy their food without any concerns.
 
                     </p>
-                    <p>
-                        In addition to serving customers, we are also dedicated to empowering home chefs & creating opportunities for them to grow. By providing a platform to showcase their skills, we help them turn their passion into a reliable source of income, while reaching a wider audience in their local community.
-                    </p>
-
+                  
                     <p>
                         Our mission is to redefine food delivery by focusing health, authenticity, & convenience. We strive to create a community where people can enjoy homemade food every day, support local talent, and experience the joy of meals that truly feel like home.
                     </p>
@@ -57,14 +54,14 @@ export default function setting() {
                     <h1 className="font-bold text-5xl">Setting</h1>
                     <p>
                         Our platform is built to bring the warmth and authenticity of home-cooked foods to people’s everyday lives. 
-                        In a fast-paced world where time is limited, we aim to provide meals that feel just like they are made at home—fresh, comforting, and full of care. We believe food is not just about eating, but about experience, 
+                        In a fast-paced world where time is limited, we aim to provide meals that feel just like they are made at home—fresh, comforting, and full of care. 
+                        We believe food is not just about eating, but about experience, 
                         health, and connection.
                     </p>
                     <p>
                         We connect users with talented home chefs who are passionate about cooking and sharing 
                         their unique recipes. From traditional meals to modern healthy options, 
                         our platform offers a wide variety of dishes that cater to different tastes and lifestyles. 
-                        Whether it’s a simple lunch, a special dinner, or a fitness-focused meal plan, we make it easy to find the right food.
 
                     </p>
                     <p>
