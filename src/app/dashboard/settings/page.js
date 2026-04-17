@@ -26,9 +26,6 @@ export default function setting() {
 
                     </p>
                   
-                    <p>
-                        Our mission is to redefine food delivery by focusing health, authenticity, & convenience. We strive to create a community where people can enjoy homemade food every day, support local talent, and experience the joy of meals that truly feel like home.
-                    </p>
 
                 </div>
 
