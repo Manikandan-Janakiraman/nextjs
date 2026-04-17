@@ -91,7 +91,7 @@ export default function blog() {
                     <p>Next Js is the server side rendering javascript.
                         Create backend APIs inside the same project.
                     </p>
-                    <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read More</button>
+                    <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read Mores</button>
                 </div>
 
                 <div className="bg-blue-200 w-100 h-95 text-black flex flex-col gap-2 p-3 rounded-xl">
@@ -101,7 +101,7 @@ export default function blog() {
                     <p>Next Js is the server side rendering javascript.
                         Create backend APIs inside the same project.
                     </p>
-                    <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read More</button>
+                    <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read Mores</button>
                 </div>
 
 
