@@ -106,9 +106,6 @@ export default function About() {
                         Quality and hygiene are at the core of everything we do. We ensure that every meal prepared by our chefs follows proper safety standards and maintains consistent taste and freshness. Our goal is to build trust with every order, so customers can enjoy their food without any concerns.
 
                     </p>
-                    <p>
-                        In addition to serving customers, we are also dedicated to empowering home chefs and creating opportunities for them to grow. By providing a platform to showcase their skills, we help them turn their passion into a reliable source of income, while reaching a wider audience in their local community.
-                    </p>
 
 
                     <p>
