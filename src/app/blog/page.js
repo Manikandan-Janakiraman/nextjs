@@ -94,11 +94,65 @@ export default function blog() {
                     <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read More</button>
                 </div>
 
-           
+                <div className="bg-blue-200 w-100 h-95 text-black flex flex-col gap-2 p-3 rounded-xl">
+                    <Image src="/images.jpg" alt="Picture of the author" width={600} height={600}
+                    />
+                    <h1 className="font-bold">Welcome to the Next Js World</h1>
+                    <p>Next Js is the server side rendering javascript.
+                        Create backend APIs inside the same project.
+                    </p>
+                    <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read More</button>
+                </div>
 
 
             </div>
 
+
+
+    <div className="flex flex-row p-30 -mt-55 gap-5 justify-around">
+
+                <div className="bg-blue-200 w-100 h-95 text-black flex flex-col gap-2 p-3 rounded-xl">
+                    <Image src="/images.jpg" alt="Picture of the author" width={600} height={600}
+                    />
+                    <h1 className="font-bold">Welcome to the Next Js World</h1>
+                    <p>Next Js is the server side rendering javascript.
+                        Create backend APIs inside the same project.
+                    </p>
+                    <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read More</button>
+                </div>
+
+                <div className="bg-blue-200 w-100 h-95 text-black flex flex-col gap-2 p-3 rounded-xl">
+                    <Image src="/images.jpg" alt="Picture of the author" width={600} height={600}
+                    />
+                    <h1 className="font-bold">Welcome to the Next Js World</h1>
+                    <p>Next Js is the server side rendering javascript.
+                        Create backend APIs inside the same project.
+                    </p>
+                    <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read More</button>
+                </div>
+
+                <div className="bg-blue-200 w-100 h-95 text-black flex flex-col gap-2 p-3 rounded-xl">
+                    <Image src="/images.jpg" alt="Picture of the author" width={600} height={600}
+                    />
+                    <h1 className="font-bold">Welcome to the Next Js World</h1>
+                    <p>Next Js is the server side rendering javascript.
+                        Create backend APIs inside the same project.
+                    </p>
+                    <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read More</button>
+                </div>
+
+                <div className="bg-blue-200 w-100 h-95 text-black flex flex-col gap-2 p-3 rounded-xl">
+                    <Image src="/images.jpg" alt="Picture of the author" width={600} height={600}
+                    />
+                    <h1 className="font-bold">Welcome to the Next Js World</h1>
+                    <p>Next Js is the server side rendering javascript.
+                        Create backend APIs inside the same project.
+                    </p>
+                    <button className="bg-red-500 text-white text-center p-2 rounded w-30">Read More</button>
+                </div>
+
+
+            </div>
 
 
         </>
