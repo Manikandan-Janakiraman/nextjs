@@ -112,6 +112,11 @@ export default function About() {
                         We connect users with talented home chefs who are passionate about cooking & sharing their unique recipes. From traditional meals to modern healthy options, our platform offers a wide variety of dishes that cater to different tastes and lifestyles. Whether it’s a simple lunch, a special dinner, or a fitness-focused meal plan, we make it easy to find the right food.
 
                     </p>
+
+                     <p>
+                        Quality and hygiene are at the core of everything we do. We ensure that every meal prepared by our chefs follows proper safety standards and maintains consistent taste and freshness. Our goal is to build trust with every order, so customers can enjoy their food without any concerns.
+
+                    </p>
                 </div>
 
                 <div className="w-200 h-95 text-black flex flex-col gap-2">
