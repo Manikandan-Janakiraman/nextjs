@@ -85,9 +85,7 @@ export default function About() {
                         Quality and hygiene are at the core of everything we do. We ensure that every meal prepared by our chefs follows proper safety standards and maintains consistent taste and freshness. Our goal is to build trust with every order, so customers can enjoy their food without any concerns.
 
                     </p>
-                    <p>
-                        In addition to serving customers, we are also dedicated to empowering home chefs and creating opportunities for them to grow. By providing a platform to showcase their skills, we help them turn their passion into a reliable source of income, while reaching a wider audience in their local community.
-                    </p>
+                  
 
                     <p>
                         Our mission is to redefine food delivery by focusing on health, authenticity, and convenience. We strive to create a community where people can enjoy homemade food every day, support local talent, and experience the joy of meals that truly feel like home.
@@ -110,7 +108,6 @@ export default function About() {
 
                     <p>
                         We connect users with talented home chefs who are passionate about cooking & sharing their unique recipes. From traditional meals to modern healthy options, our platform offers a wide variety of dishes that cater to different tastes and lifestyles. Whether it’s a simple lunch, a special dinner, or a fitness-focused meal plan, we make it easy to find the right food.
-
                     </p>
 
                      <p>
